@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextUser"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập User Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="62dp"
+        android:layout_marginTop="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="151dp"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/editTextUser"
+        android:layout_alignStart="@+id/editTextUser" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="419dp"
+        android:layout_marginTop="78dp"
+        android:layout_below="@+id/editTextPass"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        android:text="Create Account" />
+
+</RelativeLayout>
+
+
+    

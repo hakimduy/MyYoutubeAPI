@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "767590502732",
+    "project_id": "myyoutube-163800"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767590502732:android:d3cf8ae5eb61abee",
+        "android_client_info": {
+          "package_name": "vn.edu.funix.myyoutube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767590502732-jvmhk2dg6tl0d3kqbrgm31vnebqr5rbr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "767590502732-7ntfaq1pb1iinuvka1p3dppbolg54ue1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.edu.funix.myyoutube",
+            "certificate_hash": "6705d9003608aeb48b593b26e7938d9feed5c9f2"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-QgAkbOvKTBgYHOXnHb8EAbmgjtQOXd0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
